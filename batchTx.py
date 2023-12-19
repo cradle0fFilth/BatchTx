@@ -62,7 +62,7 @@ def my_function():
         print(signed_txs[i])
     try:
         response = send_batch_transaction(signed_txs)
-        # 打印返回的数据
+        # print response
         print(response)
     except Exception as e:
         print(f"Post Error:{e}")
