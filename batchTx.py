@@ -18,7 +18,7 @@ def send_batch_transaction(params):
     for p in params:
         batch.append(
             {
-                "jspnrpc": "2.0",
+                "jsonrpc": "2.0",
                 "method": "eth_sendRawTransaction",
                 "params":[p],
                 "id":id,
